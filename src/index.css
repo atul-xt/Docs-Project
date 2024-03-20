@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Gilroy-M;
+    src: url(./fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-R;
+    src: url(./fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-B;
+    src: url(./fonts/Gilroy-SemiBold.ttf);
+}
+
+.m{
+    font-family: Gilroy-M;
+}
+.r{
+    font-family: Gilroy-R;
+}
+.b{
+    font-family: Gilroy-B;
+}
+
+.hide::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    /* background-color: wheat; */
+}
